@@ -2,6 +2,10 @@ package hello;
 
 public class Hello {
   public static void main(String[] args) {
-    System.out.println("Hello there world!");
+    hello("there World");
+  }
+
+  private static void hello(String target) {
+    System.out.println("Hello " + target + "!");
   }
 }
