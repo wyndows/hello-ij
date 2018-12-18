@@ -6,6 +6,6 @@ public class Hello {
   }
 
   private static void hello(String target) {
-    System.out.println("Hello " + target + "!");
+    System.out.println("Hello " + target + "!!");
   }
 }
